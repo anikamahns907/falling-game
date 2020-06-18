@@ -1,5 +1,7 @@
 import pygame
+#image is saved as a variable
 anikaImg = pygame.image.load('anika.PNG').convert_alpha() 
+
 class Anika(pygame.sprite.Sprite):
     #This class represents a car. It derives from the "Sprite" class in Pygame.
     
